@@ -15,7 +15,7 @@ scraper.py ──→ 5 SAM.gov matches ──→ pipeline.py ──→ proposal_
 
 ### Gemini Output Quality
 Generated a complete 6-section proposal:
-1. **Executive Summary** — Positioned Perseus/Mneme as secure software layer for NEXUS
+1. **Executive Summary** — Positioned Perseus/Perseus Vault as secure software layer for NEXUS
 2. **Technical Approach** — Air-gapped deployment, AES-256-GCM, MCP protocol, FTS5+vector search
 3. **Past Performance** — Hermes Agent integration, 1,032 CI tests, Gauntlet v2 100/100
 4. **Compliance Checklist** — FAR 52.204-7 (SAM), DFARS 252.204-7012 (CUI), NIST SP 800-171
