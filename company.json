@@ -2,7 +2,7 @@
   "name": "Perseus Computing LLC",
   "capabilities": [
     "AI infrastructure — live context engine (Perseus)",
-    "Persistent memory for AI agents (Mimir)",
+    "Persistent memory for AI agents (Mneme)",
     "MIT-licensed open source software",
     "Air-gapped / offline deployment",
     "AES-256-GCM encryption at rest",
@@ -10,5 +10,5 @@
     "FTS5 + hybrid vector search",
     "Audit trail with cryptographic chain-of-custody"
   ],
-  "past_performance": "Production-deployed AI infrastructure. Perseus (perseus-ctx) is the live context engine powering Hermes Agent sessions — resolves environment state before every LLM turn. Mimir is a persistent memory MCP server with 36 tools. Both are MIT-licensed and used in production. 1,032 tests in CI, Gauntlet v2 benchmark score 100.0/100."
+  "past_performance": "Production-deployed AI infrastructure. Perseus (perseus-ctx) is the live context engine powering Hermes Agent sessions — resolves environment state before every LLM turn. Mneme is a persistent memory MCP server with 36 tools. Both are MIT-licensed and used in production. 1,032 tests in CI, Gauntlet v2 benchmark score 100.0/100."
 }
