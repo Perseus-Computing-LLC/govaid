@@ -4,7 +4,7 @@
 > **Gemini XPRIZE 2026 entry.** Built by Perseus Computing LLC.
 
 GovAId helps small businesses find, understand, and win federal contracts. It uses
-Google Gemini for proposal generation, Perseus for live context grounding, and Mimir
+Google Gemini for proposal generation, Perseus for live context grounding, and Mneme
 for persistent memory.
 
 ## The Problem
@@ -22,7 +22,7 @@ But most small businesses can't navigate:
 1. **Onboard** — Analyze your NAICS codes, capabilities, past performance
 2. **Monitor** — Scan SAM.gov, SBIR.gov, and agency portals for matches
 3. **Generate** — Gemini-powered proposal drafts with compliance checks
-4. **Track** — Mimir-backed persistent memory for deadlines, status, history
+4. **Track** — Mneme-backed persistent memory for deadlines, status, history
 5. **Win** — Higher quality proposals, more submissions, better hit rate
 
 ## Architecture
@@ -30,7 +30,7 @@ But most small businesses can't navigate:
 ```
 Small Business → GovAId Dashboard → Gemini (proposal gen)
                                   → Perseus (live context)
-                                  → Mimir (persistent memory)
+                                  → Mneme (persistent memory)
                                   → SAM.gov API (RFP data)
                                   → SBIR.gov (topic data)
 ```
@@ -41,7 +41,7 @@ Small Business → GovAId Dashboard → Gemini (proposal gen)
 |---|---|
 | AI | Google Gemini (via AI Studio) |
 | Context | Perseus (live context engine) |
-| Memory | Mimir (persistent memory MCP) |
+| Memory | Mneme (persistent memory MCP) |
 | Hosting | Google Cloud |
 | Frontend | Stitch (design) + React |
 | Video | Flow + Pomelli |
